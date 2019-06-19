@@ -17,14 +17,16 @@ class Post
     @@all
   end
 
-
-
   def author_title
     if self.author
       self.author.title
     else
       nil
     end
+  end
+
+  def author_name
+    
   end
 
 end
