@@ -17,7 +17,7 @@ class Post
     @@all
   end
 
-  def author_title
+  def author_name
     if self.author
       self.author.title
     else
@@ -25,8 +25,6 @@ class Post
     end
   end
 
-  def author_name
-    
-  end
+  
 
 end
